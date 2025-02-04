@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity  ^0.8.28;
-import "../node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol";
+pragma solidity ^0.8.0;
+
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
 contract PredictionMarket is ReentrancyGuard {
     struct BetInfo {
         uint256 amount;

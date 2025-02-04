@@ -1,22 +1,14 @@
 module.exports = {
-  contracts_build_directory: "./build",
-  // Add paths configuration
-  paths: {
-    sources: "./contracts",
-    tests: "./test",
-    cache: "./cache",
-    artifacts: "./build/contracts"
-  },
   networks: {
     development: {
       host: "127.0.0.1",
-      port: 7545,
-      network_id: "*",
+      port: 7545, // Ganache default port
+      network_id: "*", // Match any network ID
     },
   },
   compilers: {
     solc: {
-      version: "0.8.28",  
+      version: "0.8.0", // Match your Solidity version
     },
-  },  
+  },
 };

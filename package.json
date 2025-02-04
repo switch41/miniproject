@@ -1,6 +1,10 @@
 {
   "dependencies": {
     "@openzeppelin/contracts": "^4.9.6",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@trufflesuite/uws-js-unofficial": "^20.30.0-unofficial.0",
+    "chai": "^5.1.2",
+    "react-scripts": "^5.0.1",
     "truffle": "^5.5.7",
     "web-vitals": "^4.2.4",
     "web3": "^4.16.0"
@@ -9,10 +13,14 @@
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
+    "ganache": "ganache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "ganache": "^7.9.2"
+  }
 }
